@@ -18,10 +18,19 @@
 
      }
 
+
      body{
          background-color: lavender;
+         background-image:  url('static.gif');
+         background-repeat: repeat;
+         background-attachment: fixed;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+
      }
-        .bigbox {
+
+     .bigbox {
          background-image:  linear-gradient(90deg, lightskyblue 0%, lightpink 100%);
          background-attachment: scroll;
          background-repeat: round;
@@ -29,7 +38,7 @@
          padding-top: 50px;
          padding-bottom: 50px;
          margin: 50px;
-        }
+     }
 
      h1 {
          color: black;
@@ -61,15 +70,20 @@
          text-align: center;
          font-style: italic;
      }
-                      .box2 {
-            border: 5px solid black;
-            padding: 20px;
-            padding-left: 40px;
-            padding-right: 40px;
-            margin-left: 200px;
-            margin-right: 200px;
-            background: lightpink;
-        }
+
+     .box2 {
+         border: 5px solid black;
+         padding-top: 25px;
+         padding-bottom: 25px;
+         background-color: lavender;
+         background-attachment: scroll;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+         margin: 75px;
+         max-width:75%;
+     }
 
      a {
          border: 5px solid black;
@@ -85,10 +99,7 @@
          background: lightskyblue;
      }
 
-     img {
-         width: 300px;
 
-     }
 
      .box{
          display :flex;
@@ -98,19 +109,35 @@
 
      .form{
          background: cyan;
-        }
+     }
+
+     iframe{
+         max-width:100%
+     }
+
+     #qdititle{
+         max-width: 75%
+     }
 
     </style>
-    <h2>
-        QUEER DIGITAL INTIMACIES
-    </h2>
-    
-<p>WASD TO MOVE, SPACE TO JUMP, MOUSE TO CONTROL VIEW/DIRECTION</p>
+
+    <div class="box2">
+
+        <div class="box">
+
+            <img src="qdititle.png" id="qdititle" alt="the title 'Queer Digital Intimacies' written in pixelated font, followed by a pixelated heart">
+
+        </div>
+
+        <p>WASD ON KEYBOARD TO MOVE, SPACE TO JUMP, MOUSE TO CONTROL VIEW/DIRECTION
+        </br>(please allow time for gallery to load)</p>
 </br>
 
 <div class="box">
 
-<iframe src="https://itch.io/embed-upload/4940117?color=fbe4e4" allowfullscreen="" width="960" height="600" frameborder="0"><a href="https://havenlgbt.itch.io/queer-digital-intimacies">Play Queer Digital Intimacies on itch.io</a></iframe>
+    <iframe src="https://itch.io/embed-upload/4940117?color=fbe4e4" allowfullscreen="" width="960" height="600" frameborder="0"><a href="https://havenlgbt.itch.io/queer-digital-intimacies">Play Queer Digital Intimacies on itch.io</a></iframe>
+
+</div>
 
     </div>
 
